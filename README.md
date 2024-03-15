@@ -6,19 +6,28 @@ Welcome to the Mental Health Surveillance Assessment Tracking Solutions reposito
 The purpose of this project is to create a robust system for monitoring, assessing, and tracking mental health data. By implementing effective surveillance and assessment techniques, we aim to improve mental health outcomes, identify trends, and facilitate timely interventions.
 
 ## Features
-*Data Collection: Collects various data points related to mental health, including demographic information, symptoms, and treatment history.
+* Data Collection: Collects various data points related to mental health, including demographic information, symptoms, and treatment history.
 
-*Surveillance: Monitors mental health trends at individual and population levels to identify patterns and potential areas of concern.
+* Surveillance: Monitors mental health trends at individual and population levels to identify patterns and potential areas of concern.
 
-*Assessment: Provides tools for assessing mental health status, including standardized scales and questionnaires.
+* Assessment: Provides tools for assessing mental health status, including standardized scales and questionnaires.
 
-*Tracking: Tracks changes in mental health over time to evaluate the effectiveness of interventions and support long-term management.
+* Tracking: Tracks changes in mental health over time to evaluate the effectiveness of interventions and support long-term management.
 
-*Reporting: Generates comprehensive reports and visualizations to communicate findings and support decision-making processes.
+* Reporting: Generates comprehensive reports and visualizations to communicate findings and support decision-making processes.
 
-*Privacy and Security: Ensures the confidentiality and security of sensitive mental health data through robust privacy measures and encryption protocols.
+* Privacy and Security: Ensures the confidentiality and security of sensitive mental health data through robust privacy measures and encryption protocols.
 
 ## Technological Stack Used
 [![My Skills](https://skillicons.dev/icons?i=bootstrap,html,css,js,python,flask,figma&theme=light)](https://skillicons.dev)
+
+## References
+* World Health Organization (WHO). (2020). Mental health surveillance and population-based surveys. Retrieved from https://www.who.int/mental_health/evidence/surveillance/en/
+
+* Simpli-learn.Python Chat Bot step by step guide-                                                                                                                 
+https://www.simplilearn.com/tutorials/python-tutorial/how-to-make-a-chatbot-in-python
+
+* Deep Learning -                                                                                                                                                          https://www.geeksforgeeks.org/artificial-neural-networks-and-its-applications/
+
 
 
