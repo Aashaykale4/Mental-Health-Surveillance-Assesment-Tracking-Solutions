@@ -7,10 +7,18 @@ The purpose of this project is to create a robust system for monitoring, assessi
 
 ## Features
 *Data Collection: Collects various data points related to mental health, including demographic information, symptoms, and treatment history.
+
 *Surveillance: Monitors mental health trends at individual and population levels to identify patterns and potential areas of concern.
+
 *Assessment: Provides tools for assessing mental health status, including standardized scales and questionnaires.
+
 *Tracking: Tracks changes in mental health over time to evaluate the effectiveness of interventions and support long-term management.
+
 *Reporting: Generates comprehensive reports and visualizations to communicate findings and support decision-making processes.
+
 *Privacy and Security: Ensures the confidentiality and security of sensitive mental health data through robust privacy measures and encryption protocols.
+
+## Technological Stack Used
+[![My Skills](https://skillicons.dev/icons?i=bootstrap,html,css,js,python,flask,figma&theme=light)](https://skillicons.dev)
 
 
