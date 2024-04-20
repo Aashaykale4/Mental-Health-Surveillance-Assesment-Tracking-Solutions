@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/signup.css')}}">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="{{url_for('static', filename='Images/Scale_logo.png')}}" height="100px" id="logoimg">
+    </nav>
+    <div id="main">
+        <p id="heading">Sign up</p>
+        <p id="heading2">Create your account</p>
+        <br>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div style="color: white" class="alert alert-{{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+       {% endwith %}
+       <form action="{{ url_for('signup') }}" method="post">
+
+        <label for="username"><p id="formname">Username</p></label>
+        <input type="text" class="email" placeholder="Your username" name="username" required>
+    
+        <label for="age"><p id="formname">Age</p></label>
+        <input type="number" class="email" placeholder="Your age" name="age" required>
+    
+        <label for="email"><p id="formname">Email</p></label>
+        <input type="email" class="email" placeholder="Your email address" name="email" required>
+    
+        <label for="password"><p id="formname">Password</p></label>
+        <input type="password" class="email" placeholder="Your password" name="password" required>
+    
+        <input type="submit" id="lgnbtn" value="Sign Up">
+    </form>
+    
+        <p id="heading4">Already have an account? <a href="{{url_for('login')}}" id="signup">Login</a></p>
+
+
+    </div>
+</body>
+
+</html>

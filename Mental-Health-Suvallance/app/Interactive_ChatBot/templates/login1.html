@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login1.css')}}">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="{{url_for('static', filename='Images/Scale_logo.png')}}" height="100px" id="logoimg">
+    </nav>
+    <div id="main">
+        <p id="heading">Welcome Back</p>
+        <p id="heading2">Enter your credentials to login</p>
+        <br>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+       {% endwith %}
+       <form action="{{ url_for('login') }}" method="post">
+        <label for="email"><p id="formname">EMAIL</p></label>
+        <input type="email" class="email" placeholder="Your email address" name="username" required>
+        <label for="password"><p id="formname">PASSWORD</p></label>
+        <input type="password" class="email" placeholder="Your password" name="password" required>
+        <input type="submit" id="lgnbtn" value="Login">
+    </form>
+    
+        <p id="heading4">Don't have an account? <a href="{{url_for('signup')}}" id="signin">Sign Up</a></p>
+    </div>
+</body>
+
+</html>
