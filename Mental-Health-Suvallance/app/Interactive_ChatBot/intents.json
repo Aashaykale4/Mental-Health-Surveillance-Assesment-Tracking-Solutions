@@ -82,16 +82,16 @@
       {
         "tag": "items",
         "patterns": [
-          "What beverages do you offer?",
-          "Which drinks are on your menu?",
-          "Can you list your products?",
-          "What can I order?"
+          "What survice do you offer?",
+          "Which plans are on your rehab?",
+          "Can you list your plans?",
+          "What can I choose?"
         ],
         "responses": [
-          "We offer a variety of beverages including coffee, tea, and soft drinks.",
-          "Our menu includes coffee, tea, and assorted beverages.",
-          "You can order coffee, tea, and other refreshments from our menu.",
-          "We have a selection of drinks such as coffee, tea, and more."
+          "We offer a variety of services including meditation, counciling, and rehab activities.",
+          "Our plans includes meditation, counciling, and rehab activities.",
+          "You can choose meditation, counciling, and rehab activities from our services.",
+          "We have a selection of plans such as meditation, counciling, and more"
         ]
       },
       {
@@ -112,14 +112,14 @@
       {
         "tag": "delivery",
         "patterns": [
-          "How soon can I expect my order?",
-          "When will my package arrive?",
+          "How soon can I expect my appointment?",
+          "When will my kit arrive?",
           "What is the estimated delivery time?",
           "How long does it take to receive my order?"
         ],
         "responses": [
           "Delivery typically takes 2-4 business days depending on your location.",
-          "You can expect your order to arrive within 2-4 business days after it's been shipped.",
+          "You can expect your kit to arrive within 2-4 business days after it's been shipped.",
           "Our standard shipping time is 2-4 business days for most locations.",
           "The estimated delivery time for your order is 2-4 business days."
         ]
