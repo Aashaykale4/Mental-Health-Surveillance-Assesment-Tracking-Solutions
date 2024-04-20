@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/benifits.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="{{url_for('static',filename='Images/Scale_logo.png')}}" height="100px" id="logoimg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{url_for('index_get')}}">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{url_for('benifits')}}">The Benifits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{url_for('about')}}">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{url_for('contact')}}">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{url_for('login')}}"><button id="btnlogin">Login</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div id="main">
+        <h3>THE BENEFITS</h3>
+        <h5>Less Depression, Stress and Anxiety</h5>
+        <p>Participants enjoy lasting improved mental health, whether accessed as an individual or provided the program
+            in a<br>
+            healthcare or enterprise setting.</p>
+        <img src="{{url_for('static',filename='Images/side logo png.png')}}" height="75px">
+    </div>
+    <div id="main1">
+        <h4>Outstanding long-term results verified by published research
+        </h4>
+        <div id="maincard">
+            <div id="card">
+                <p id="cardhd1">
+                    65%
+                </p>
+                <p id="cardhd2">REDUCTION IN<br>
+                    DEPRESSION
+                <p id="cardhd3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a id="cardlnk">SEE THE STUDY</a>
+            </div>
+            <div id="card">
+                <p id="cardhd1">
+                    43%
+                </p>
+                <p id="cardhd2">REDUCTION IN<br>
+                    STRESS
+                <p id="cardhd3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a id="cardlnk">SEE THE STUDY</a>
+            </div>
+            <div id="card">
+                <p id="cardhd1">
+                    50%
+                </p>
+                <p id="cardhd2">REDUCTION IN<br>
+                    ANXIETY
+                <p id="cardhd3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a id="cardlnk">SEE THE STUDY</a>
+            </div>
+        </div>
+    </div>
+    <div id="maindown">
+        <h4>
+            Key Features
+        </h4>
+
+        <div id="maincarddn">
+            <div id="carddn">
+                <p id="carddnhd1">
+                    Guided &<br>
+                    Supported
+                </p>
+                <p id="carddnhd2">
+                    Supportive 2APK experts guide participants through the program and explain how and why each
+                    technique can work
+                </p>
+            </div>
+            <div id="carddn">
+                <p id="carddnhd1">
+                    Progress Tracking
+                </p>
+                <p id="carddnhd2">
+                    Self-assessment tools for participants to chart their progress and reductions in stress, depression
+                    and anxiety
+                </p>
+            </div>
+            <div id="carddn">
+                <p id="carddnhd1">
+                    Skills for Life
+                </p>
+                <p id="carddnhd2">
+                    Participants develop stress management skills to apply in daily life and are encouraged with
+                    motivational emails
+                </p>
+            </div>
+        </div>
+
+
+        <div id="maincarddn">
+            <div id="carddn">
+                <p id="carddnhd1">
+                    Proven & Lasting<br>
+                    Benefits
+                </p>
+                <p id="carddnhd2">
+                    Proven effective by high satisfaction ratings and by published academic and clinical research
+                    studies
+                </p>
+            </div>
+            <div id="carddn">
+                <p id="carddnhd1">
+                    Flexible &<br>
+                    Accessible
+                </p>
+                <p id="carddnhd2">
+                    Web-based, on-demand, and easy to access from mobile, tablet or desktop, with no time limits or
+                    restrictions
+                </p>
+            </div>
+            <div id="carddn">
+                <p id="carddnhd1">
+                    Widely Effective
+                </p>
+                <p id="carddnhd2">
+                    Significantly reduces levels of depression, anxiety, and stress, improves general wellbeing, and
+                    helps maintain good mental health long-term
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="ftr">
+        <img src="{{url_for('static',filename='Images/Scale_logo.png')}}" id="ftrlogo">
+        <img src="{{url_for('static',filename='Images/2apk_logo (1).png')}}" id="ftrlogo2">
+        <ul class="alllist">
+            <li class="list1">
+                <ul>
+                    <li style="color:rgba(250, 239, 128, 255) ;"><b>PROGRAM</b></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">For Healthcare</a></li>
+                    <li><a href="">For Enterprise</a></li>
+                    <li><a href="">Test Your Stress</a></li>
+                </ul>
+            </li>
+            <li class="list1">
+                <ul>
+                    <li style="color:rgba(250, 239, 128, 255) ;"><b>SUPPORT</b></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Cookie Policy</a></li>
+                    <li><a href="">Accessibility Statement</a></li>
+                    <li><a href="">Security Best Practices</a></li>
+                </ul>
+            </li>
+            <li class="list1">
+                <ul>
+                    <li style="color:rgba(250, 239, 128, 255) ;"><b>COMPANY</b></li>
+                    <li><a href="">2APK</a></li>
+                    <li><a href="">Regulatory Standards</a></li>
+                    <li><a href="">Latest Research</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </li>
+            <li class="list1">
+                <ul>
+                    <li style="color:rgba(250, 239, 128, 255) ;"><b>SUBSCRIBE</b></li>
+                    <li>
+                        <form>
+                            <p id="para2">Enter your email to receive the latest news and insights</p>
+                            <input type="email" id="subcribe">
+                        </form>
+                    </li>
+                    <li>
+                        <button id="subbtn">
+                            SUBSCRIBE
+
+                        </button>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
